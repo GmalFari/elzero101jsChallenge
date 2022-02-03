@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(5,200px);
+    /* border:10px solid #ddd; */
+    /* grid-template-areas: ""; */
+    gap:10px 10px;
+    
+}
+.grid div {
+    margin-bottom: 0;
+    background-color: yellow;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.container .content {
+    /* margin:10px; */
+    border:10px solid #ddd;
+
+}
